@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body> 
+    <!-- 1 -->
+    <div class="container js-container-all-users">
+        <button class="mdc-btn js-get-all-users" type="submit">Show all users</button>
+    </div>
+    <ul class="list js-AllUsers"></ul>
+
+    <!-- 2 -->
+    <div class="container js-container-users-by-id">
+        <form class="search-form js-users-by-id">
+            <input class="js-put-id" type="text" name="country" placeholder="Enter id">
+            <button class="mdc-btn js-submit-id" type="submit">Get user by id</button>
+        </form>
+    </div>
+    <ul class="list js-usersById"></ul>
+
+    <!-- 3 -->
+    <div class="container js-container-add-user">
+        <form class="search-form js-form-add-user">
+            <input class="js-add-name" type="text" name="country" placeholder="Enter name">
+            <input class="js-add-age" type="text" name="country" placeholder="Enter age">
+            <button class="mdc-btn js-submit-add-user" type="submit">Add user</button>
+        </form>
+    </div>
+    <ul class="list js-addUsersNameAge"></ul>
+
+     <!-- 4 -->
+    <div class="container js-container-remove-user">
+        <form class="search-form js-form-remove-user">
+            <input class="js-remove-id" type="text" name="country" placeholder="Enter id">
+            <button class="mdc-btn js-submit-id" type="submit">Remove user</button>
+        </form>
+    </div>
+    <ul class="list js-removeUsers"></ul>
+
+      <!-- 5 -->
+    <div class="container js-container-update-user">
+        <form class="search-form js-form-update-user">
+            <input class="js-update-name" type="text" name="country" placeholder="Enter name">
+            <input class="js-update-age" type="text" name="country" placeholder="Enter age">
+            <input class="js-update-id" type="text" name="country" placeholder="Enter id">
+            <button class="mdc-btn js-submit-update-user" type="submit">Update user</button>
+        </form>
+    </div>
+    <ul class="list js-updateUsers"></ul>
+
+   
+
+    <script src="index.js"></script>
+</body>
+</html>
